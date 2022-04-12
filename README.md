@@ -92,7 +92,7 @@ This code was then run with streamlit.
 
 On the web-app, first a beer is selected which one already knows and likes and then another from, for example, a menu card is chosen.
 
-The web-app will now hen give a recommendation:
+The web-app will now give a recommendation:
 
 score >= 0.95: 'no risk'
 

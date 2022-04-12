@@ -18,7 +18,7 @@ In case of wine, for example, - with some experience - one can judge on origin o
 What can give some indication about similarity of taste, flavors or mouthfeel?
 
 Providing this indication and a recommendation is the aim of my Beer-Commender-System:
-A web-app, that makes it easier to select a type from a list, as for instance from a menu card.
+A web-app, that makes it easier to select a type from a list like a menu card, for instance.
 
 
 # Data

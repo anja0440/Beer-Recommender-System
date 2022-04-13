@@ -7,17 +7,17 @@ The beer-commender will help to select the beer from a menu card, which is close
 
 # Project Description
 
-According to latest surveys, the number of breweries worldwide is about 20.000 and most restaurants with specific regional
-cuisines offer a variety of different beers.
+According to latest surveys, the number of breweries worldwide is about 20.000.
+Even locally, restaurants with specific regional cuisines offer a variety of different beers.
 
-It is always interesting to taste a new type of beer but there is such a wide range in taste, that you
+It is always interesting to try a new type of beer but there is such a wide range in taste, that you
 can easily select one which you do not like at all.
 
 In case of wine, with some experience, one can judge the taste on origin or grape - but what about hops?
 What can give some indication about similarity of taste, when it is about beer?
 
 The aim of this Beer-(Re)Commender-System is to provide this indication and a recommendation:
-A web-app, which makes it easier to select a beer for instance from a menu card.
+A web-app, which makes it easier to select the right beer for instance from a menu card.
 
 
 # Data
@@ -78,15 +78,15 @@ With the dataset from Opendatasoft I was able to add the origin (country) by bre
 # Code
 
 The coding was done with Python in a Jupyter Lab notebook, the visualization with Tableau and for the web-app, I used Streamlit.
-('Country' and 'Style_red' columns were added in Excel.)
+('Country' and 'Style_red' columns were added with Excel.)
 
 
 # Visualization of correlation
 
 In Tableau I created different plots to show the correlation of 'mouthfeel', 'taste', 'flavor' and country and 'mouthfeel', 'taste', 'flavor' and style.
 
-In case of the country-related correltaion some regional differences were highlighted, 
-and in case of style the data was reduced to 5 different types: 'Pilsner', 'Bock', 'Lager', 'Wheat Beer' and 'Stout'.
+In case of the country-related correlation, some regional differences were highlighted, 
+and in case of style, the data was reduced to 5 different types: 'Pilsner', 'Bock', 'Lager', 'Wheat Beer' and 'Stout'.
 
 In all cases, the median was used.
 
@@ -97,10 +97,10 @@ To define the similarity, all categorical data except of 'Beer Name (Full)' were
 
 Then I took the pairwise cosine_similarity from sklearn and wrote a function which returns a score between 0 and 1: 1 indicating perfect match and 0 the widest distance.
 
-This code was then run with streamlit.
+This code is then run with streamlit.
 
 
-On the web-app, first a beer is selected which one is familiar with and then another is chosen, for example from a menu card.
+On the web-app, first a beer is selected which one is familiar with and then the unknown is chosen, for example from a menu card.
 
 
 The web-app will now give a recommendation:

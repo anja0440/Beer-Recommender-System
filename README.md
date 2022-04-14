@@ -7,10 +7,12 @@ The beer-commender will help to select the beer from a menu card, which is close
 
 # Project Description
 
-According to latest surveys, the number of breweries worldwide is about 20.000.
-Even locally, restaurants with specific regional cuisines offer a variety of different beers.
+According to latest surveys, the number of breweries worldwide is about 19.000 brewing hundreds of thousands individual beers, 
+of more than 100 different styles.
 
-It is always interesting to try a new type of beer but there is such a wide range in taste, that you
+And one does not have to travel far to try a new one, as restaurants with specific regional cuisines offer a variety of different beers.
+
+It is always a good thing to try something new but with regards to beer, there is such a wide range in taste, that you
 can easily select one which you do not like at all.
 
 In case of wine, with some experience, one can judge the taste on origin or grape - but what about hops?
@@ -88,7 +90,13 @@ In Tableau I created different plots to show the correlation of 'mouthfeel', 'ta
 In case of the country-related correlation, some regional differences were highlighted, 
 and in case of style, the data was reduced to 5 different types: 'Pilsner', 'Bock', 'Lager', 'Wheat Beer' and 'Stout'.
 
-In all cases, the median was used.
+Though this is not a kind of "scientific" analysis, the output of the reviews do provide a distinction of perception of features as 'bitter', 'sweet', 'body', etc..
+It proves for instances my own experience that Pilsner is more on the bitter side compared to Stout or Bock.
+
+Similarily the graphics give the impression that Icelandic beers are more malty than from other countries, but in the end it only shows the difference from given reviews.
+
+
+As the use and amount of specific keywords says more about the reviewer as about the tasted beer, I found the median an appropriate metric.
 
 
 # Similarities and web-app
